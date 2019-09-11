@@ -1,0 +1,6 @@
+I plan on using the PokeAPI as the source of my data. The three different aspects of PokeAPI I plan on using are Pokemon, Generation and Type. I plan on relating Pokemon to Generation and Type by referencing each as a property of Pokemon.
+
+My models I plan on using are:
+Pokemon: Name, url, type, generation
+Type: name, url
+Generation: id
