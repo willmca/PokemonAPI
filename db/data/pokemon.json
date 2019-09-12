@@ -2,756 +2,907 @@
       {
         "name": "bulbasaur",
         "url": "https://pokeapi.co/api/v2/pokemon/1/",
+        "number": 1,
         "type": ["grass", "poison"]
       },
       {
         "name": "ivysaur",
         "url": "https://pokeapi.co/api/v2/pokemon/2/",
+        "number": 2,
         "type": ["grass", "poison"]
       },
       {
         "name": "venusaur",
         "url": "https://pokeapi.co/api/v2/pokemon/3/",
+        "number": 3,
         "type": ["grass", "poison"]
       },
       {
         "name": "charmander",
         "url": "https://pokeapi.co/api/v2/pokemon/4/",
+        "number": 4,
         "type": ["fire"]
       },
       {
         "name": "charmeleon",
         "url": "https://pokeapi.co/api/v2/pokemon/5/",
+        "number": 5,
         "type": ["fire"]
       },
       {
         "name": "charizard",
         "url": "https://pokeapi.co/api/v2/pokemon/6/",
+        "number": 6,
         "type": ["fire", "flying"]
       },
       {
         "name": "squirtle",
         "url": "https://pokeapi.co/api/v2/pokemon/7/",
+        "number": 7,
         "type": ["water"]
       },
       {
         "name": "wartortle",
         "url": "https://pokeapi.co/api/v2/pokemon/8/",
+        "number": 8,
         "type": ["water"]
       },
       {
         "name": "blastoise",
         "url": "https://pokeapi.co/api/v2/pokemon/9/",
+        "number": 9,
         "type": ["water"]
       },
       {
         "name": "caterpie",
         "url": "https://pokeapi.co/api/v2/pokemon/10/",
+        "number": 10,
         "type": ["bug"]
       },
       {
         "name": "metapod",
         "url": "https://pokeapi.co/api/v2/pokemon/11/",
+        "number": 11,
         "type": ["bug"]
       },
       {
         "name": "butterfree",
         "url": "https://pokeapi.co/api/v2/pokemon/12/",
+        "number": 12,
         "type": ["bug", "flying"]
       },
       {
         "name": "weedle",
         "url": "https://pokeapi.co/api/v2/pokemon/13/",
+        "number": 13,
         "type": ["bug", "poison"]
       },
       {
         "name": "kakuna",
         "url": "https://pokeapi.co/api/v2/pokemon/14/",
+        "number": 14,
         "type": ["bug", "poison"]
       },
       {
         "name": "beedrill",
         "url": "https://pokeapi.co/api/v2/pokemon/15/",
+        "number": 15,
         "type": ["bug", "poison"]
       },
       {
         "name": "pidgey",
         "url": "https://pokeapi.co/api/v2/pokemon/16/",
+        "number": 16,
         "type": ["normal", "flying"]
       },
       {
         "name": "pidgeotto",
         "url": "https://pokeapi.co/api/v2/pokemon/17/",
+        "number": 17,
         "type": ["normal", "flying"]
       },
       {
         "name": "pidgeot",
         "url": "https://pokeapi.co/api/v2/pokemon/18/",
+        "number": 18,
         "type": ["normal", "flying"]
       },
       {
         "name": "rattata",
         "url": "https://pokeapi.co/api/v2/pokemon/19/",
+        "number": 19,
         "type": ["normal"]
       },
       {
         "name": "raticate",
         "url": "https://pokeapi.co/api/v2/pokemon/20/",
+        "number": 20,
         "type": ["normal"]
       },
       {
         "name": "spearow",
         "url": "https://pokeapi.co/api/v2/pokemon/21/",
+        "number": 21,
         "type": ["normal", "flying"]
       },
       {
         "name": "fearow",
         "url": "https://pokeapi.co/api/v2/pokemon/22/",
+        "number": 22,
         "type": ["normal", "flying"]
       },
       {
         "name": "ekans",
         "url": "https://pokeapi.co/api/v2/pokemon/23/",
+        "number": 23,
         "type": ["poison"]
       },
       {
         "name": "arbok",
         "url": "https://pokeapi.co/api/v2/pokemon/24/",
+        "number": 24,
         "type": ["poison"]
       },
       {
         "name": "pikachu",
         "url": "https://pokeapi.co/api/v2/pokemon/25/",
+        "number": 25,
         "type": ["electric"]
       },
       {
         "name": "raichu",
         "url": "https://pokeapi.co/api/v2/pokemon/26/",
+        "number": 26,
         "type":["electric"]
       },
       {
         "name": "sandshrew",
         "url": "https://pokeapi.co/api/v2/pokemon/27/",
+        "number": 27,
         "type":["ground"]
       },
       {
         "name": "sandslash",
         "url": "https://pokeapi.co/api/v2/pokemon/28/",
+        "number": 28,
         "type":["ground"]
       },
       {
         "name": "nidoran-f",
         "url": "https://pokeapi.co/api/v2/pokemon/29/",
+        "number": 29,
         "type":["poison"]
       },
       {
         "name": "nidorina",
         "url": "https://pokeapi.co/api/v2/pokemon/30/",
+        "number": 30,
         "type":["poison"]
       },
       {
         "name": "nidoqueen",
         "url": "https://pokeapi.co/api/v2/pokemon/31/",
+        "number": 31,
         "type":["poison", "ground"]
       },
       {
         "name": "nidoran-m",
         "url": "https://pokeapi.co/api/v2/pokemon/32/",
+        "number": 32,
         "type":["poison"]
       },
       {
         "name": "nidorino",
         "url": "https://pokeapi.co/api/v2/pokemon/33/",
+        "number": 33,
         "type":["poison"]
       },
       {
         "name": "nidoking",
         "url": "https://pokeapi.co/api/v2/pokemon/34/",
+        "number": 34,
         "type":["poison", "ground"]
       },
       {
         "name": "clefairy",
         "url": "https://pokeapi.co/api/v2/pokemon/35/",
+        "number": 35,
         "type":["normal"]
       },
       {
         "name": "clefable",
         "url": "https://pokeapi.co/api/v2/pokemon/36/",
+        "number": 36,
         "type":["normal"]
       },
       {
         "name": "vulpix",
         "url": "https://pokeapi.co/api/v2/pokemon/37/",
+        "number": 37,
         "type":["fire"]
       },
       {
         "name": "ninetales",
         "url": "https://pokeapi.co/api/v2/pokemon/38/",
+        "number": 38,
         "type":["fire"]
       },
       {
         "name": "jigglypuff",
         "url": "https://pokeapi.co/api/v2/pokemon/39/",
+        "number": 39,
         "type":["normal"]
       },
       {
         "name": "wigglytuff",
         "url": "https://pokeapi.co/api/v2/pokemon/40/",
+        "number": 40,
         "type":["normal"]
       },
       {
         "name": "zubat",
         "url": "https://pokeapi.co/api/v2/pokemon/41/",
+        "number": 41,
         "type":["poison","flying"]
       },
       {
         "name": "golbat",
         "url": "https://pokeapi.co/api/v2/pokemon/42/",
+        "number": 42,
         "type": ["poison","flying"]
       },
       {
         "name": "oddish",
         "url": "https://pokeapi.co/api/v2/pokemon/43/",
+        "number": 43,
         "type":["grass","poison"]
       },
       {
         "name": "gloom",
         "url": "https://pokeapi.co/api/v2/pokemon/44/",
+        "number": 44,
         "type":["grass","poison"]
       },
       {
         "name": "vileplume",
         "url": "https://pokeapi.co/api/v2/pokemon/45/",
+        "number": 45,
         "type":["grass","poison"]
       },
       {
         "name": "paras",
         "url": "https://pokeapi.co/api/v2/pokemon/46/",
+        "number": 46,
         "type":["bug","grass"]
       },
       {
         "name": "parasect",
         "url": "https://pokeapi.co/api/v2/pokemon/47/",
+        "number": 47,
         "type":["bug","grass"]
       },
       {
         "name": "venonat",
         "url": "https://pokeapi.co/api/v2/pokemon/48/",
+        "number": 48,
         "type":["bug", "poison"]
       },
       {
         "name": "venomoth",
         "url": "https://pokeapi.co/api/v2/pokemon/49/",
+        "number": 49,
         "type":["bug", "poison"]
       },
       {
         "name": "diglett",
         "url": "https://pokeapi.co/api/v2/pokemon/50/",
+        "number": 50,
         "type":["ground"]
       },
       {
         "name": "dugtrio",
         "url": "https://pokeapi.co/api/v2/pokemon/51/",
+        "number": 51,
         "type":["ground"]
       },
       {
         "name": "meowth",
         "url": "https://pokeapi.co/api/v2/pokemon/52/",
+        "number": 52,
         "type":["normal"]
       },
       {
         "name": "persian",
         "url": "https://pokeapi.co/api/v2/pokemon/53/",
+        "number": 53,
         "type":["normal"]
       },
       {
         "name": "psyduck",
         "url": "https://pokeapi.co/api/v2/pokemon/54/",
+        "number": 54,
         "type":["water"]
       },
       {
         "name": "golduck",
         "url": "https://pokeapi.co/api/v2/pokemon/55/",
+        "number": 55,
         "type":["water"]
       },
       {
         "name": "mankey",
         "url": "https://pokeapi.co/api/v2/pokemon/56/",
+        "number": 56,
         "type":["fighting"]
       },
       {
         "name": "primeape",
         "url": "https://pokeapi.co/api/v2/pokemon/57/",
+        "number": 57,
         "type":["fighting"]
       },
       {
         "name": "growlithe",
         "url": "https://pokeapi.co/api/v2/pokemon/58/",
+        "number": 58,
         "type":["fire"]
       },
       {
         "name": "arcanine",
         "url": "https://pokeapi.co/api/v2/pokemon/59/",
+        "number": 59,
         "type":["fire"]
       },
       {
         "name": "poliwag",
         "url": "https://pokeapi.co/api/v2/pokemon/60/",
+        "number": 60,
         "type":["water"]
       },
       {
         "name": "poliwhirl",
         "url": "https://pokeapi.co/api/v2/pokemon/61/",
+        "number": 61,
         "type":["water"]
       },
       {
         "name": "poliwrath",
         "url": "https://pokeapi.co/api/v2/pokemon/62/",
+        "number": 62,
         "type":["water", "fighting"]
       },
       {
         "name": "abra",
         "url": "https://pokeapi.co/api/v2/pokemon/63/",
+        "number": 63,
         "type":["psychic"]
       },
       {
         "name": "kadabra",
         "url": "https://pokeapi.co/api/v2/pokemon/64/",
+        "number": 64,
         "type":["psychic"]
       },
       {
         "name": "alakazam",
         "url": "https://pokeapi.co/api/v2/pokemon/65/",
+        "number": 65,
         "type":["psychic"]
       },
       {
         "name": "machop",
         "url": "https://pokeapi.co/api/v2/pokemon/66/",
+        "number": 66,
         "type":["fighting"]
       },
       {
         "name": "machoke",
         "url": "https://pokeapi.co/api/v2/pokemon/67/",
+        "number": 67,
         "type":["fighting"]
       },
       {
         "name": "machamp",
         "url": "https://pokeapi.co/api/v2/pokemon/68/",
+        "number": 68,
         "type":["fighting"]
       },
       {
         "name": "bellsprout",
         "url": "https://pokeapi.co/api/v2/pokemon/69/",
+        "number": 69,
         "type":["grass","poison"]
       },
       {
         "name": "weepinbell",
         "url": "https://pokeapi.co/api/v2/pokemon/70/",
+        "number": 70,
         "type":["grass","poison"]
       },
       {
         "name": "victreebel",
         "url": "https://pokeapi.co/api/v2/pokemon/71/",
+        "number": 71,
         "type":["grass","poison"]
       },
       {
         "name": "tentacool",
         "url": "https://pokeapi.co/api/v2/pokemon/72/",
+        "number": 72,
         "type":["water","poison"]
       },
       {
         "name": "tentacruel",
         "url": "https://pokeapi.co/api/v2/pokemon/73/",
+        "number": 73,
         "type":["water","poison"]
       },
       {
         "name": "geodude",
         "url": "https://pokeapi.co/api/v2/pokemon/74/",
+        "number": 74,
         "type":["rock", "ground"]
       },
       {
         "name": "graveler",
         "url": "https://pokeapi.co/api/v2/pokemon/75/",
+        "number": 75,
         "type":["rock", "ground"]
       },
       {
         "name": "golem",
         "url": "https://pokeapi.co/api/v2/pokemon/76/",
+        "number": 76,
         "type":["rock", "ground"]
       },
       {
         "name": "ponyta",
         "url": "https://pokeapi.co/api/v2/pokemon/77/",
+        "number": 77,
         "type":["fire"]
       },
       {
         "name": "rapidash",
         "url": "https://pokeapi.co/api/v2/pokemon/78/",
+        "number": 78,
         "type":["fire"]
       },
       {
         "name": "slowpoke",
         "url": "https://pokeapi.co/api/v2/pokemon/79/",
+        "number": 79,
         "type":["water", "psychic"]
       },
       {
         "name": "slowbro",
         "url": "https://pokeapi.co/api/v2/pokemon/80/",
+        "number": 80,
         "type":["water", "psychic"]
       },
       {
         "name": "magnemite",
         "url": "https://pokeapi.co/api/v2/pokemon/81/",
+        "number": 81,
         "type":["electric"]
       },
       {
         "name": "magneton",
         "url": "https://pokeapi.co/api/v2/pokemon/82/",
+        "number": 82,
         "type":["electric"]
       },
       {
         "name": "farfetchd",
         "url": "https://pokeapi.co/api/v2/pokemon/83/",
+        "number": 83,
         "type":["normal","flying"]
       },
       {
         "name": "doduo",
         "url": "https://pokeapi.co/api/v2/pokemon/84/",
+        "number": 84,
         "type":["normal","flying"]
       },
       {
         "name": "dodrio",
         "url": "https://pokeapi.co/api/v2/pokemon/85/",
+        "number": 85,
         "type":["normal","flying"]
       },
       {
         "name": "seel",
         "url": "https://pokeapi.co/api/v2/pokemon/86/",
+        "number": 86,
         "type":["water"]
       },
       {
         "name": "dewgong",
         "url": "https://pokeapi.co/api/v2/pokemon/87/",
+        "number": 87,
         "type":["water","ice"]
       },
       {
         "name": "grimer",
         "url": "https://pokeapi.co/api/v2/pokemon/88/",
+        "number":88,
         "type":["poison"]
       },
       {
         "name": "muk",
         "url": "https://pokeapi.co/api/v2/pokemon/89/",
+        "number": 89,
         "type":["poison"]
       },
       {
         "name": "shellder",
         "url": "https://pokeapi.co/api/v2/pokemon/90/",
+        "number": 90,
         "type":["water"]
       },
       {
         "name": "cloyster",
         "url": "https://pokeapi.co/api/v2/pokemon/91/",
+        "number": 91,
         "type":["water","ice"]
       },
       {
         "name": "gastly",
         "url": "https://pokeapi.co/api/v2/pokemon/92/",
+        "number": 92,
         "type":["ghost"]
       },
       {
         "name": "haunter",
         "url": "https://pokeapi.co/api/v2/pokemon/93/",
+        "number": 93,
         "type":["ghost"]
       },
       {
         "name": "gengar",
         "url": "https://pokeapi.co/api/v2/pokemon/94/",
+        "number": 94,
         "type":["ghost"]
       },
       {
         "name": "onix",
         "url": "https://pokeapi.co/api/v2/pokemon/95/",
+        "number": 95,
         "type":["rock", "ground"]
       },
       {
         "name": "drowzee",
         "url": "https://pokeapi.co/api/v2/pokemon/96/",
+        "number": 96,
         "type":["psychic"]
       },
       {
         "name": "hypno",
         "url": "https://pokeapi.co/api/v2/pokemon/97/",
+        "number": 97,
         "type":["psychic"]
       },
       {
         "name": "krabby",
         "url": "https://pokeapi.co/api/v2/pokemon/98/",
+        "number": 98,
         "type":["water"]
       },
       {
         "name": "kingler",
         "url": "https://pokeapi.co/api/v2/pokemon/99/",
+        "number": 99,
         "type":["water"]
       },
       {
         "name": "voltorb",
         "url": "https://pokeapi.co/api/v2/pokemon/100/",
+        "number": 100,
         "type":["electric"]
       },
       {
         "name": "electrode",
         "url": "https://pokeapi.co/api/v2/pokemon/101/",
+        "number": 101,
         "type":["electric"]
       },
       {
         "name": "exeggcute",
         "url": "https://pokeapi.co/api/v2/pokemon/102/",
+        "number": 102,
         "type":["grass","poison"]
       },
       {
         "name": "exeggutor",
         "url": "https://pokeapi.co/api/v2/pokemon/103/",
+        "number": 103,
         "type":["grass","poison"]
       },
       {
         "name": "cubone",
         "url": "https://pokeapi.co/api/v2/pokemon/104/",
+        "number": 104,
         "type":["ground"]
       },
       {
         "name": "marowak",
         "url": "https://pokeapi.co/api/v2/pokemon/105/",
+        "number": 105,
         "type":["ground"]
       },
       {
         "name": "hitmonlee",
         "url": "https://pokeapi.co/api/v2/pokemon/106/",
+        "number": 106,
         "type":["fighting"]
       },
       {
         "name": "hitmonchan",
         "url": "https://pokeapi.co/api/v2/pokemon/107/",
+        "number": 107,
         "type":["fighting"]
       },
       {
         "name": "lickitung",
         "url": "https://pokeapi.co/api/v2/pokemon/108/",
+        "number": 108,
         "type":["normal"]
       },
       {
         "name": "koffing",
         "url": "https://pokeapi.co/api/v2/pokemon/109/",
+        "number": 109,
         "type":["poison"]
       },
       {
         "name": "weezing",
         "url": "https://pokeapi.co/api/v2/pokemon/110/",
+        "number": 110,
         "type":["poison"]
       },
       {
         "name": "rhyhorn",
         "url": "https://pokeapi.co/api/v2/pokemon/111/",
+        "number": 111,
         "type":["ground","rock"]
       },
       {
         "name": "rhydon",
         "url": "https://pokeapi.co/api/v2/pokemon/112/",
+        "number": 112,
         "type":["ground","rock"]
       },
       {
         "name": "chansey",
         "url": "https://pokeapi.co/api/v2/pokemon/113/",
+        "number": 113,
         "type":["normal"]
       },
       {
         "name": "tangela",
         "url": "https://pokeapi.co/api/v2/pokemon/114/",
+        "number": 114,
         "type":["grass"]
       },
       {
         "name": "kangaskhan",
         "url": "https://pokeapi.co/api/v2/pokemon/115/",
+        "number": 115,
         "type":["normal"]
       },
       {
         "name": "horsea",
         "url": "https://pokeapi.co/api/v2/pokemon/116/",
+        "number": 116,
         "type":["water"]
       },
       {
         "name": "seadra",
         "url": "https://pokeapi.co/api/v2/pokemon/117/",
+        "number": 117,
         "type":["water"]
       },
       {
         "name": "goldeen",
         "url": "https://pokeapi.co/api/v2/pokemon/118/",
+        "number": 118,
         "type":["water"]
       },
       {
         "name": "seaking",
         "url": "https://pokeapi.co/api/v2/pokemon/119/",
+        "number": 119,
         "type":["water"]
       },
       {
         "name": "staryu",
         "url": "https://pokeapi.co/api/v2/pokemon/120/",
+        "number": 120,
         "type":["water"]
       },
       {
         "name": "starmie",
         "url": "https://pokeapi.co/api/v2/pokemon/121/",
+        "number": 121,
         "type":["water","psychic"]
       },
       {
         "name": "mr-mime",
         "url": "https://pokeapi.co/api/v2/pokemon/122/",
+        "number": 122,
         "type":["psychic"]
       },
       {
         "name": "scyther",
         "url": "https://pokeapi.co/api/v2/pokemon/123/",
+        "number": 123,
         "type":["bug","flying"]
       },
       {
         "name": "jynx",
         "url": "https://pokeapi.co/api/v2/pokemon/124/",
+        "number": 124,
         "type":["ice", "psychic"]
       },
       {
         "name": "electabuzz",
         "url": "https://pokeapi.co/api/v2/pokemon/125/",
+        "number": 125,
         "type":["electric"]
       },
       {
         "name": "magmar",
         "url": "https://pokeapi.co/api/v2/pokemon/126/",
+        "number": 126,
         "type":["fire"]
       },
       {
         "name": "pinsir",
         "url": "https://pokeapi.co/api/v2/pokemon/127/",
+        "number": 127,
         "type":["bug"]
       },
       {
         "name": "tauros",
         "url": "https://pokeapi.co/api/v2/pokemon/128/",
+        "number": 128,
         "type":["normal"]
       },
       {
         "name": "magikarp",
         "url": "https://pokeapi.co/api/v2/pokemon/129/",
+        "number": 129,
         "type":["water"]
       },
       {
         "name": "gyarados",
         "url": "https://pokeapi.co/api/v2/pokemon/130/",
+        "number": 130,
         "type":["water", "flying"]
       },
       {
         "name": "lapras",
         "url": "https://pokeapi.co/api/v2/pokemon/131/",
+        "number": 131,
         "type":["water", "ice"]
       },
       {
         "name": "ditto",
         "url": "https://pokeapi.co/api/v2/pokemon/132/",
+        "number": 132,
         "type":["normal"]
       },
       {
         "name": "eevee",
         "url": "https://pokeapi.co/api/v2/pokemon/133/",
+        "number": 133,
         "type":["normal"]
       },
       {
         "name": "vaporeon",
         "url": "https://pokeapi.co/api/v2/pokemon/134/",
+        "number": 134,
         "type":["water"]
       },
       {
         "name": "jolteon",
         "url": "https://pokeapi.co/api/v2/pokemon/135/",
+        "number": 135,
         "type":["electric"]
       },
       {
         "name": "flareon",
         "url": "https://pokeapi.co/api/v2/pokemon/136/",
+        "number": 136,
         "type":["fire"]
       },
       {
         "name": "porygon",
         "url": "https://pokeapi.co/api/v2/pokemon/137/",
+        "number": 137,
         "type":["normal"]
       },
       {
         "name": "omanyte",
         "url": "https://pokeapi.co/api/v2/pokemon/138/",
+        "number": 138,
         "type":["rock", "water"]
       },
       {
         "name": "omastar",
         "url": "https://pokeapi.co/api/v2/pokemon/139/",
+        "number": 139,
         "type":["rock", "water"]
       },
       {
         "name": "kabuto",
         "url": "https://pokeapi.co/api/v2/pokemon/140/",
+        "number": 140,
         "type":["rock", "water"]
       },
       {
         "name": "kabutops",
         "url": "https://pokeapi.co/api/v2/pokemon/141/",
+        "number": 141,
         "type":["rock", "water"]
       },
       {
         "name": "aerodactyl",
         "url": "https://pokeapi.co/api/v2/pokemon/142/",
+        "number": 142,
         "type":["rock", "flying"]
       },
       {
         "name": "snorlax",
         "url": "https://pokeapi.co/api/v2/pokemon/143/",
+        "number": 143,
         "type":["normal"]
       },
       {
         "name": "articuno",
         "url": "https://pokeapi.co/api/v2/pokemon/144/",
+        "number": 144,
         "type":["ice","flying"]
       },
       {
         "name": "zapdos",
         "url": "https://pokeapi.co/api/v2/pokemon/145/",
+        "number": 145,
         "type":["electric","flying"]
       },
       {
         "name": "moltres",
         "url": "https://pokeapi.co/api/v2/pokemon/146/",
+        "number": 146,
         "type":["fire","flying"]
       },
       {
         "name": "dratini",
         "url": "https://pokeapi.co/api/v2/pokemon/147/",
+        "number": 147,
         "type":["dragon"]
       },
       {
         "name": "dragonair",
         "url": "https://pokeapi.co/api/v2/pokemon/148/",
+        "number": 148,
         "type":["dragon"]
       },
       {
         "name": "dragonite",
         "url": "https://pokeapi.co/api/v2/pokemon/149/",
+        "number": 149,
         "type":["dragon", "flying"]
       },
       {
         "name": "mewtwo",
         "url": "https://pokeapi.co/api/v2/pokemon/150/",
+        "number": 150,
         "type":["psychic"]
       },
       {
         "name": "mew",
         "url": "https://pokeapi.co/api/v2/pokemon/151/",
+        "number": 151,
         "type":["psychic"]
       }
     ]

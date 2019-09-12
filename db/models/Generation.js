@@ -2,7 +2,9 @@ const mongoose = require("../connection")
 const Schema = mongoose.Schema
 
 const GenerationSchema = new Schema({
-    id: Number
+    name: String,
+    url: String
+
 })
 
 const Generation = mongoose.model("Generation", GenerationSchema)
