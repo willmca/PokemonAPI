@@ -53,10 +53,12 @@ module.exports = {
       }, req.body)
       .then(pokemon => res.json(pokemon))
     },
-    create: (req, res) => {
-      const newPokemon = req.body;
-      Pokemon.create(newPokemon).then(pokemon => res.json(pokemon));
-    },
+      create: (req, res) => {
+      Pokemon.create(req.body)
+        .then(pokemon => {
+          res.json(pokemon)
+        })
+    }
     }
    
   
