@@ -27,9 +27,9 @@ module.exports = {
       .then(type => res.json(type))
 },
     create: (req, res) => {
-      Pokemon.create(req.body)
-      .then(pokemon => {
-      res.json(pokemon)
+      Type.create(req.body)
+      .then(type => {
+      res.json(type)
     })
 },
 
