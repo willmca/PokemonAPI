@@ -5,4 +5,3 @@ Pokemon: Name, url, type, generation
 Type: name, url
 Generation: id
 
-To do: Investigate generation name not showing when pokemon searched by type/number, reference types, deploy

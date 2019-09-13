@@ -13,8 +13,22 @@ Generation.findOne({ "name": "generation-i" })
         Pokemon.find({})
             .then(pokemon => {
                 pokemon.forEach(singlePokemon => {
-                    singlePokemon.generation = genOne.id
-                    singlePokemon.save()
+                    const pokemonJson = PokemonData.find(pokemonJsonItem => pokemonJsonItem.name === singlePokemon.name)
+
+                    const pokemonTypePromises = pokemonJson.type.map(type => {
+                         return new Promise(resolve => {
+                             Type.findOne({ name: type })
+                                .then(typeDocument => {
+                                    singlePokemon.type.push(typeDocument.id)
+                                    resolve(singlePokemon)
+                                })
+                         })
+                    })
+                    Promise.all(pokemonTypePromises)
+                        .then(() => {
+                            singlePokemon.generation = genOne.id
+                            singlePokemon.save()
+                        })
                 })
             })
     })

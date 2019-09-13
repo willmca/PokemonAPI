@@ -7,6 +7,15 @@ const TypeData = require("../data/types.json")
 const Generation = require("../models/Generation")
 const GenerationData = require("../data/generation.json")
 
+const pokemonDataClean = PokemonData.map(pokemonDataItem => {
+    const cleanPokemonData = {}
+    cleanPokemonData.name = pokemonDataItem.name
+    cleanPokemonData.url = pokemonDataItem.url
+    cleanPokemonData.number = pokemonDataItem.number
+
+    return cleanPokemonData
+})
+
 /*Pokemon.find({}).deleteMany({}).then(() => {
     let newPokemonData = {};
     PokemonData.map(element => {
@@ -24,7 +33,7 @@ const GenerationData = require("../data/generation.json")
 });
 */
 Pokemon.find({}).deleteMany({}).then(() => {
-    Pokemon.create(PokemonData)
+    Pokemon.create(pokemonDataClean)
         .then((pokemon) =>
             console.log(pokemon)
         )

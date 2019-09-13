@@ -1,9 +1,11 @@
 const Pokemon = require("../db/models/Pokemon");
+const Type = require("../db/models/Type");
 
 module.exports = {
   index: (req, res) => {
     Pokemon.find({}).sort({ number: 1 })
       .populate("generation", "name")
+      .populate("type", "name")
       .then(pokemon => {
         res.json(pokemon);
       });
@@ -11,17 +13,23 @@ module.exports = {
   indexByName: (req, res) => {
     Pokemon.findOne({
       name: req.params.name
-    }).populate("generation", "name")
+    })
+      .populate("generation", "name")
+      .populate("type", "name")
       .then(pokemon => {
         res.json(pokemon)
       })
   },
   indexByType: (req, res) => {
-    Pokemon.find({
-      type: req.params.type
-    }).sort({ number: 1 }).populate("generation", "name").
-      then(pokemon => {
-        res.json(pokemon)
+    Type.findOne({ name: req.params.type })
+      .then(typeDocument => {
+        Pokemon.find({
+          type: typeDocument.id
+        }).sort({ number: 1 }).populate("generation", "name")
+          .populate("type", "name")
+          .then(pokemon => {
+            res.json(pokemon)
+          })
       })
   },
   indexByNumber: (req, res) => {
