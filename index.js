@@ -13,4 +13,6 @@ app.use("/api/pokemon", PokemonRouter)
 app.use("/api/type", TypeRouter)
 app.use("/api/generation", GenRouter)
 
-app.listen(300, () => console.log("Cool Pokemon stuff happening on port 300"))
+app.set("port", process.env.PORT || 300);
+app.listen(app.get("port"), () => 
+{console.log(`PORT: ${app.get("port")}`)});

@@ -2,7 +2,14 @@ const mongoose = require('mongoose')
 
 mongoose.Promise = Promise
 
-mongoose.connect('mongodb://localhost/pokemonAPI', { useNewUrlParser: true })
+let mongoURI = "";
+
+if (process.env.NODE_ENV === "production") {
+	mongoURI = process.env.DB_URL;
+  } else {
+	mongoURI = "mongodb://localhost/pokemonAPI";
+  }
+mongoose.connect(mongoURI, { useNewUrlParser: true })
 .then((conn) => {
 	console.log(`connected to mongodb on ${conn.connections[0].name} db`)
 })
