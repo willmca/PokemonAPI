@@ -2,8 +2,8 @@ const Pokemon = require("../db/models/Pokemon");
 
 module.exports = {
   index: (req, res) => {
-    Pokemon.find({})
-    .populate("generation", "name")
+    Pokemon.find({}).sort({ number: 1 })
+      .populate("generation", "name")
       .then(pokemon => {
         res.json(pokemon);
       });
@@ -11,23 +11,26 @@ module.exports = {
   indexByName: (req, res) => {
     Pokemon.findOne({
       name: req.params.name
-    }).then(pokemon => {
-      res.json(pokemon)
-    })
+    }).populate("generation", "name")
+      .then(pokemon => {
+        res.json(pokemon)
+      })
   },
   indexByType: (req, res) => {
     Pokemon.find({
       type: req.params.type
-    }).then(pokemon => {
-      res.json(pokemon)
-    })
+    }).sort({ number: 1 }).populate("generation", "name").
+      then(pokemon => {
+        res.json(pokemon)
+      })
   },
   indexByNumber: (req, res) => {
     Pokemon.find({
       number: req.params.number
-    }).then(pokemon => {
-      res.json(pokemon)
-    })
+    }).populate("generation", "name")
+      .then(pokemon => {
+        res.json(pokemon)
+      })
   },
   deleteByName: (req, res) => {
     Pokemon.deleteOne({
@@ -47,14 +50,14 @@ module.exports = {
     Pokemon.findOneAndUpdate({
       name: req.params.name
     }, req.body,
-    { new: true })
+      { new: true })
       .then(pokemon => res.json(pokemon))
   },
   updateByNumber: (req, res) => {
     Pokemon.findOneAndUpdate({
       number: req.params.number
     }, req.body,
-    { new: true })
+      { new: true })
       .then(pokemon => res.json(pokemon))
   },
   create: (req, res) => {
@@ -66,4 +69,3 @@ module.exports = {
 }
 
 
-    

@@ -7,5 +7,6 @@ const GenerationSchema = new Schema({
 
 })
 
+
 const Generation = mongoose.model("Generation", GenerationSchema)
 module.exports = Generation

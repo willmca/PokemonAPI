@@ -1,10 +1,10 @@
-const Pokemon = require ("../models/Pokemon")
+const Pokemon = require("../models/Pokemon")
 const PokemonData = require("../data/pokemon.json")
 
-const Type = require ("../models/Type")
-const TypeData = require ("../data/types.json")
+const Type = require("../models/Type")
+const TypeData = require("../data/types.json")
 
-const Generation = require ("../models/Generation")
+const Generation = require("../models/Generation")
 const GenerationData = require("../data/generation.json")
 
 /*Pokemon.find({}).deleteMany({}).then(() => {
@@ -25,23 +25,26 @@ const GenerationData = require("../data/generation.json")
 */
 Pokemon.find({}).deleteMany({}).then(() => {
     Pokemon.create(PokemonData)
-    .then( (pokemon) => 
-    console.log(pokemon)
-    )}
+        .then((pokemon) =>
+            console.log(pokemon)
+        )
+}
 )
 
 Type.find({}).deleteMany({}).then(() => {
     Type.create(TypeData)
-    .then( (type) => 
-    console.log(type)
-    )}
+        .then((type) =>
+            console.log(type)
+        )
+}
 )
 
 Generation.find({}).deleteMany({}).then(() => {
     Generation.create(GenerationData)
-    .then( (generation) => 
-    console.log(generation)
-    )}
+        .then((generation) =>
+            console.log(generation)
+        )
+}
 )
 
 

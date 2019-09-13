@@ -5,4 +5,4 @@ Pokemon: Name, url, type, generation
 Type: name, url
 Generation: id
 
-TO DO: Make pokemon always display in order by number, fix postman returns for put functionality
+To do: Investigate generation name not showing when pokemon searched by type/number, reference types, deploy
