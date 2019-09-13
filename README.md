@@ -2,7 +2,7 @@ Project Name: Pokemon API
 
 <b>Description:</b> 
 
-This is an API that I built from scratch outside of using data from the pokeapi.co. The API features three models: Pokemon, Type and Generation. The Pokemon model references Type and Generation. The API has full CRUD functionality allowing users to create, read, update and destroy what they would like.
+This is an API that I built from scratch outside of using data from pokeapi.co. The API features three models: Pokemon, Type and Generation. The Pokemon model references Type and Generation. The API has full CRUD functionality allowing users to create, read, update and destroy what they would like.
 
 <b>Technologies:</b> Javascript, MongoDB, Heroku, Express
 
