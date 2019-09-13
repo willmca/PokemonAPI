@@ -5,3 +5,4 @@ Pokemon: Name, url, type, generation
 Type: name, url
 Generation: id
 
+Plan on refactoring this at some point to fit with my Pokemon game
