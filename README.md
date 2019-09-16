@@ -1,5 +1,7 @@
 Project Name: Pokemon API 
 
+Deployed Project Link : https://wills-pokemon-api.herokuapp.com/api/pokemon
+
 <b>Description:</b> 
 
 This is an API that I built from scratch outside of using data from pokeapi.co. The API features three models: Pokemon, Type and Generation. The Pokemon model references Type and Generation. The API has full CRUD functionality allowing users to create, read, update and destroy what they would like.
