@@ -6,7 +6,6 @@ const Schema = mongoose.Schema
 const PokemonSchema = new Schema({
   name: String,
   url: String,
-  // type: [String],
   type: [
     {
       type: mongoose.Schema.Types.ObjectId,

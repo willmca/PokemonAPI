@@ -16,22 +16,6 @@ const pokemonDataClean = PokemonData.map(pokemonDataItem => {
     return cleanPokemonData
 })
 
-/*Pokemon.find({}).deleteMany({}).then(() => {
-    let newPokemonData = {};
-    PokemonData.map(element => {
-        newPokemonData.name=element.name;
-        newPokemonData.url=element.url;
-        newPokemonData.type=element.type;
-  
-        Pokemon.create(newPokemonData)
-        .then( (pokemon) => {
-            pokemon.save()
-            console.log(pokemon)
-        }
-        );
-    })
-});
-*/
 Pokemon.find({}).deleteMany({}).then(() => {
     Pokemon.create(pokemonDataClean)
         .then((pokemon) =>
