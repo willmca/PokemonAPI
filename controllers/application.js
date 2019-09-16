@@ -1,6 +1,6 @@
-module.exports = {
-    index: (req, res) => {
-      res.redirect("/api/pokemon");
-    }
-  };
   
+module.exports = {
+  index: (req, res) => {
+    res.redirect("/api/pokemon");
+  }
+};

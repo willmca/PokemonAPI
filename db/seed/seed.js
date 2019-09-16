@@ -7,6 +7,9 @@ const TypeData = require("../data/types.json")
 const Generation = require("../models/Generation")
 const GenerationData = require("../data/generation.json")
 
+const Instructions = require("../models/instructions")
+const InstructionsData = require("../data/routes.json")
+
 const pokemonDataClean = PokemonData.map(pokemonDataItem => {
     const cleanPokemonData = {}
     cleanPokemonData.name = pokemonDataItem.name
